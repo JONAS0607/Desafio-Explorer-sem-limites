@@ -15,13 +15,13 @@
 </head>
 
 <body>
-  <div class="hero">
+  <div id="hero">
     <div class="astronaut">
       <img src="./images/astronaut.svg" alt="Astronauta no espaço">
     </div>
     <div class="hero-cta">
       <h1>Explore sem limites</h1>
-      <h3>Porque o aprendizado é contínuo</h3>
+      <p>Porque o aprendizado é contínuo</p>
       <a href="#cards" class="button-down">
         <img src="./images/arrow-down.svg" alt="seta para baixo">
       </a>
@@ -29,12 +29,13 @@
 
   </div>
 
-  <div class="cards">
+
+  <div id="cards">
     <div class="card">
       <img src="./images/yellow-moon.svg" alt="Imgem de uma lua amarela">
 
       <div class="card-text">
-        <h1>Não pare nunca</h1>
+        <h3>Não pare nunca</h3>
         <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca".
           Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
       </div>
@@ -43,7 +44,7 @@
     <div class="card">
       <img src="./images/blue-moon.svg" alt="Imgem de uma lua azul">
       <div class="card-text">
-        <h1>Só volta</h1>
+        <h3>Só volta</h3>
         <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às
           vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
       </div>
@@ -52,7 +53,7 @@
     <div class="card">
       <img src="./images/pink-moon.svg" alt="Imgem de uma lua rosa">
       <div class="card-text">
-        <h1>Siga seu ritmo</h1>
+        <h3>Siga seu ritmo</h3>
         <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos
           passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao
           objetivo final.</p>
@@ -64,23 +65,28 @@
 
 
 
-  <section class="contact">
+  <section id="contact">
 
-    <label for="form-13">Entre em contato</label>
-    <form id="form-13">
-
+    <form>
+      <h2>Entre em contato</h2>
       <fieldset>
-        <label for="name">Digite seu nome</label>
-        <input id="name" type="text" placeholder="Seu nome">
-        <label for="email">Digite seu e-mail</label>
-        <input id="email" type="email" placeholder="Email">
-        <label for="email">Digite sua mensagem</label>
-        <textarea placeholder="Digite sua mensagem aqui..."></textarea>
+        <div class="input-wrapper">
+          <label for="name">Digite seu nome</label>
+          <input id="name" type="text" placeholder="Seu nome">
+        </div>
+        <div class="input-wrapper">
+          <label for="email">Digite seu e-mail</label>
+          <input id="email" type="email" placeholder="Email">
+        </div>
+        <div class="input-wrapper">
+          <label for="email">Digite sua mensagem</label>
+          <textarea placeholder="Digite sua mensagem aqui..."></textarea>
+        </div>
       </fieldset>
 
       <button class="button" type="submit">Enviar Mensagem</button>
     </form>
-
+    <div class="stars"> </div>
   </section>
 
 

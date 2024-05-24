@@ -210,7 +210,8 @@ footer p {
 
 /* @media */
 
-@media (min-width: 1440px) {
+@media (min-width: 740px) {
+
   /* Global Styles */
   h1 {
     font-size: 5.8rem;
@@ -227,7 +228,8 @@ footer p {
   }
 
   #hero .hero-cta {
-    order: 1; /* Flexbox item property: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox#ordena%C3%A7%C3%A3o_de_elementos_flex */
+    order: 1;
+    /* Flexbox item property: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox#ordena%C3%A7%C3%A3o_de_elementos_flex */
     margin-top: 31.2rem;
   }
 
@@ -280,6 +282,7 @@ footer p {
     flex: 1;
     margin-left: 10.9rem;
   }
+
   #contact .stars {
     flex: 1;
   }
